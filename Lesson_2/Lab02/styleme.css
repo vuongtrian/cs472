@@ -1,0 +1,26 @@
+hr {
+    border: none; 
+    border-top: 2px solid black;
+    margin: 20px 0;
+    width: 100%; 
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+h3 {
+    color: cornflowerblue;
+    background-color: beige;
+}
+
+b {
+    color: burlywood;
+    font-weight: 700;
+    font-size: large;
+}
+
+p {
+    font-size: medium;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

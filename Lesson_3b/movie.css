@@ -1,0 +1,54 @@
+body {
+    background-image: url("./background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#image-banner {
+    background-image: url("./bannerbg.png");
+    text-align: center;
+}
+
+#image-banner img {
+    height: 50px;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .box {
+    width: 850px;
+    border: solid gray;
+    border-radius: 20px;
+    column-count: 2;  
+    /* padding: 10px; */
+}
+
+.left {
+    width: 550px;
+}
+
+.left_top {
+    background-image: url("./rbg.png");
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+}
+
+.left_top img {
+    height: 83px;
+}
