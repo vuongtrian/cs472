@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- Servlet Definition -->
+    <servlet>
+        <servlet-name>BeerSelect</servlet-name>        <!-- Name of the servlet -->
+        <servlet-class>web.BeerSelect</servlet-class> <!-- Fully qualified class name of the servlet -->
+    </servlet>
+
+    <!-- Servlet Mapping -->
+    <servlet-mapping>
+        <servlet-name>BeerSelect</servlet-name>        <!-- Name of the servlet to be mapped -->
+        <url-pattern>/selectBeer</url-pattern>         <!-- URL pattern that maps to this servlet -->
+    </servlet-mapping>
+
+    <!-- Welcome File List -->
+    <welcome-file-list>
+        <welcome-file>pages/selectBeer.jsp</welcome-file>  <!-- Default page when accessing the application root -->
+    </welcome-file-list>
+
+</web-app>
